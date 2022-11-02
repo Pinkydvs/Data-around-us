@@ -1,6 +1,24 @@
+//declare var title & print it
 let title=['A Game of Thrones', 'The Hunger Games'];
 console.log(title);
+
+//declare var author & print it
 let author=['George R.R. Martin', 'Suzzane Collins'];
 console.log(author);
+
+//declare var author & print it
 let year=[1996, 2008];
 console.log(year);
+
+//declare var isNewerThan2000 & if the statement in the name is true then write true as a value, otherwise write false
+let isNewerThan2000=['True','False'];
+for (let i=0; i<year.Length; i++) 
+{ if (year[i]<=2000)
+                {console.log('The book is older than 2000);
+                 console.log(isNewerThan2000[1]);            
+                }
+   else
+                {console.log('The book is newer than 2000');
+                console.log(isNewerThan2000[0]);
+                }
+}               
