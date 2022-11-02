@@ -34,3 +34,7 @@ console.log(characters);
 //print the first 2 characters name from the list
 console.log(characters[0]);
 console.log(characters[1]);
+
+//favoriteBook
+let favoriteBook{title[0], author[0], year[0], isNewerThan2000, age[0], characters[0], character[1], character[2], character[3]};
+console.log(favoriteBook);
