@@ -22,3 +22,7 @@ for (let i=0; i<year.Length; i++)
                 console.log(isNewerThan2000[0]);
                 }
 }               
+
+//age
+let age=[2022-year[0], 2022-year[1]];
+console.log(age);
