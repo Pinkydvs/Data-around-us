@@ -26,3 +26,7 @@ for (let i=0; i<year.Length; i++)
 //age
 let age=[2022-year[0], 2022-year[1]];
 console.log(age);
+
+//declare var characters
+let characters=['Eddard Stark', 'Arya Stark', 'Jon Snow', 'Catelyn Tully', 'Katniss Everdeen', 'Primrose Everdeen', 'Peeta Mellark', 'Haymitch Abernathy'];
+console.log(characters);
