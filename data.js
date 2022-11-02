@@ -30,3 +30,7 @@ console.log(age);
 //declare var characters
 let characters=['Eddard Stark', 'Arya Stark', 'Jon Snow', 'Catelyn Tully', 'Katniss Everdeen', 'Primrose Everdeen', 'Peeta Mellark', 'Haymitch Abernathy'];
 console.log(characters);
+
+//print the first 2 characters name from the list
+console.log(characters[0]);
+console.log(characters[1]);
