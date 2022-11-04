@@ -14,13 +14,13 @@ console.log(year);
 let isNewerThan2000=['True','False'];
 for (let i=0; i<year.Length; i++) 
 { if (year[i]<=2000)
-                //console.log('The book is older than 2000);
+                {console.log('The book is older than 2000);
                 console.log(isNewerThan2000[1]);            
-                
+                }
    else
-                //console.log('The book is newer than 2000');
+                {console.log('The book is newer than 2000');
                 console.log(isNewerThan2000[0]);
-                
+                }
 }               
 
 //age
