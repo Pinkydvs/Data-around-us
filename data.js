@@ -51,7 +51,16 @@ console.log(favoriteBook.year);
 //Display the first character from the favoriteBook object's characters property
 console.log(favoriteBook.characters[0]);
 
-//
+//The data.js file contains a variable named favoriteBooks with an array value containing two objects.
 let favoriteBooks = {title: ["A Game of Thrones", "The Hunger Games"], author: ["George R.R. Martin", "Suzzane Collins"], 
                     year: [1996, 2008], isNewerThan2000: ["False", "True"], age: [26, 14], 
                     characters:["Eddard Stark", "Arya Stark", "Jon Snow", "Catelyn Tully", "Katniss Everdeen", "Primrose Everdeen", "Peeta Mellark", "Haymitch Abernathy"]};
+
+//The value of the title key of the second object in the favoriteBooks 
+console.log(favoriteBooks.title[1]);
+
+//The value of the first item of characters array from the favoriteBooks
+console.log(favorteBooks.characters[4]);
+
+//The age difference between the two books
+console.log(favoriteBooks.age[1]-favoriteBook.age[0]);
