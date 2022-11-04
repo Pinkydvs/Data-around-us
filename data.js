@@ -60,7 +60,7 @@ let favoriteBooks = {title: ["A Game of Thrones", "The Hunger Games"], author: [
 console.log(favoriteBooks.title[1]);
 
 //The value of the first item of characters array from the favoriteBooks
-console.log(favorteBooks.characters[4]);
+console.log(favoriteBooks.characters[4]);
 
 //The age difference between the two books
 console.log(favoriteBooks.age[1]-favoriteBook.age[0]);
