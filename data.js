@@ -36,5 +36,21 @@ console.log(characters[0]);
 console.log(characters[1]);
 
 //favoriteBook
-let favoriteBook = {title:'A Game of Thrones', author:'George R.R. Martin', year:1996, isNewerThan2000:'False', age:26, characters:['Eddard Stark', 'Arya Stark', 'Jon Snow', 'Catelyn Tully']};
+let favoriteBook = [title:'A Game of Thrones', author:'George R.R. Martin', year:1996, isNewerThan2000:'False', age:26, characters:['Eddard Stark', 'Arya Stark', 'Jon Snow', 'Catelyn Tully']];
 console.log(favoriteBook);
+
+//value of the favoriteBook object's title
+console.log(favoriteBook.title);
+
+//value of the favoriteBook object's author
+console.log(favoriteBook.author);
+
+//value of the favoriteBook object's year 
+console.log(favoriteBook.year);
+
+//Display the first character from the favoriteBook object's characters property
+console.log(favoriteBook.characters[0]);
+
+let favoriteBooks = [title: ['A Game of Thrones', 'The Hunger Games'], author: ['George R.R. Martin', 'Suzzane Collins'], 
+                    year: [1996, 2008], isNewerThan2000: ['False', 'True'], age: [26, 14], 
+                    characters:['Eddard Stark', 'Arya Stark', 'Jon Snow', 'Catelyn Tully', 'Katniss Everdeen', 'Primrose Everdeen', 'Peeta Mellark', 'Haymitch Abernathy']};
