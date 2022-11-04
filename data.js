@@ -36,5 +36,5 @@ console.log(characters[0]);
 console.log(characters[1]);
 
 //favoriteBook
-let favoriteBook()={title:'A Game of Thrones', author:'George R.R. Martin', year:1996, isNewerThan2000:'False', age:26, characters:['Eddard Stark', 'Arya Stark', 'Jon Snow', 'Catelyn Tully']};
+let favoriteBook = {title:'A Game of Thrones', author:'George R.R. Martin', year:1996, isNewerThan2000:'False', age:26, characters:['Eddard Stark', 'Arya Stark', 'Jon Snow', 'Catelyn Tully']};
 console.log(favoriteBook);
