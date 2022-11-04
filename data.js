@@ -63,4 +63,7 @@ console.log(favoriteBooks.title[1]);
 console.log(favoriteBooks.characters[4]);
 
 //The age difference between the two books
-console.log(favoriteBooks.age[1]-favoriteBook.age[0]);
+if (favoriteBooks.age[0]-favoriteBooks.age[1]>=0)
+   console.log(favoriteBooks.age[0]-favoriteBooks.age[1]);
+else
+   console.log(favoriteBooks.age[1]-favoriteBooks.age[0]);
