@@ -12,7 +12,7 @@ console.log(year);
 
 //declare var isNewerThan2000 & if the statement in the name is true then write true as a value, otherwise write false
 let isNewerThan2000=['True','False'];
-for (let i=0; i<year.Length; i++) 
+for (let i=0; i<year.length; i++) 
 { if (year[i]<=2000)
                 {console.log('The book is older than 2000);
                 console.log(isNewerThan2000[1]);            
